@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.pay-info{
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.cartao{
+  background: #f4f4f4;
+  margin-bottom: 12px;
+  padding: 4px;
+}
