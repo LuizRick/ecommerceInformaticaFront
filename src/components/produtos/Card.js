@@ -16,7 +16,7 @@ export default class Card extends Component {
                         Estoque: 12
                     </p>
                     <p class="card-text">
-                        R$ 112,122
+                        Valor: R$ 112,122
                     </p>
                     <div style={{marginBottom:"3px"}}>
                         <input type="number" placeholder="quantidade" class="form-control"/>

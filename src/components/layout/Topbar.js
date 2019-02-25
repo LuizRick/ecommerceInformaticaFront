@@ -21,6 +21,7 @@ export default class Topbar extends Component {
                                 <a class="dropdown-item" href="/admin/cliente/consulta">Consulta de clientes</a>
                                 <a class="dropdown-item" href="/admin/cliente/pedidos">Pedidos clientes</a>
                                 <a class="dropdown-item" href="/admin/produtos/cadastro">Cadastro Produtos</a>
+                                <a class="dropdown-item" href="/admin/estoque/controle">Controle de estoque</a>
                             </div>
                         </li>
                     </ul>
@@ -31,7 +32,7 @@ export default class Topbar extends Component {
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-                                <i class="fas fa-user"/>&nbsp;
+                                <i class="fas fa-user" />&nbsp;
                                 Ola usuario
                             </a>
                             <div class="dropdown-menu">
@@ -42,7 +43,7 @@ export default class Topbar extends Component {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/carrinho/listar">
-                                <i class="fas fa-shopping-cart"/>
+                                <i class="fas fa-shopping-cart" />
                             </a>
                         </li>
                     </ul>

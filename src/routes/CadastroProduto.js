@@ -12,7 +12,7 @@ export default class CadastroProduto extends Component {
                                     <a class="nav-link active" href="/admin/produtos/consultar">Formulario de consulta</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="/admin/produtos/estoque">Estoque</a>
+                                    <a class="nav-link active" href="/admin/estoque/controle">Estoque</a>
                                 </li>
                             </ul>
                         </nav>
@@ -77,12 +77,19 @@ export default class CadastroProduto extends Component {
                                     <input type="text" class="form-control" />
                                 </div>
                                 <div class="col-md-3 mb-12">
-                                    <label>Valor de venda</label>
+                                    <label>Valor de Custo</label>
                                     <input type="text" class="form-control" />
                                 </div>
                                 <div class="col-md-3 mb-12">
-                                    <label>Valor de Custo</label>
-                                    <input type="text" class="form-control" />
+                                    <label>Valor de venda</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" />
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                                Gerar valor
+                                        </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -91,11 +98,10 @@ export default class CadastroProduto extends Component {
                                     <textarea class="form-control"></textarea>
                                 </div>
                             </div>
-                            <div class="form-row" style={{marginTop:"12px"}}>
+                            <div class="form-row" style={{ marginTop: "12px" }}>
                                 <div class="col-md-12">
                                     <button class="btn btn-primary" type="submit">Salvar</button>&nbsp;
                                     <button class="btn btn-danger" type="submit">Deletar</button>&nbsp;
-                                    <button class="btn btn-success" type="submit">Gerar valor de venda automatico</button>
                                 </div>
                             </div>
                         </form>

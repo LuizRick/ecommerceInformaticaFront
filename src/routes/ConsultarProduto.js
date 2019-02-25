@@ -15,7 +15,7 @@ export default class ConsultarProduto extends Component {
                                     <a class="nav-link" href="/admin/produtos/cadastro">Novo Produto</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="/admin/produtos/estoque">Estoque</a>
+                                    <a class="nav-link active" href="/admin/estoque/controle">Estoque</a>
                                 </li>
                             </ul>
                         </nav>
@@ -117,7 +117,8 @@ export default class ConsultarProduto extends Component {
                                 <td>Perifericos</td>
                                 <td>R$ 50,00</td>
                                 <td>
-                                    <a href="/admin/produto/inativar" class="btn btn-primary">inativar</a>
+                                    <a href="/admin/produto/inativar" class="btn btn-primary">inativar</a>&nbsp;
+                                    <a href="/admin/estoque/controle" class="btn btn-primary">Entrada estoque</a>
                                 </td>
                             </tbody>
                         </table>

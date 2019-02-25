@@ -87,6 +87,17 @@ const ConsultarProduto = Loadable({
 })
 
 
+const ControleEstoque = Loadable({
+  loader: () => import('./routes/ControleEstoque'),
+  loading: Loading,
+});
+
+const BaixaEstoque = Loadable({
+  loader: () => import('./routes/BaixaEstoque'),
+  loading: Loading,
+});
+
+
 class App extends Component {
   render() {
     return (
@@ -109,6 +120,8 @@ class App extends Component {
             <Route exact path="/pedido/visualizar" component={VisualizarPedido} />
             <Route exact path="/admin/produtos/cadastro" component={CadastroProduto} />
             <Route exact path="/admin/produtos/consultar" component={ConsultarProduto} />
+            <Route exact path="/admin/estoque/controle" component={ControleEstoque} />
+            <Route exact path="/admin/estoque/baixa" component={BaixaEstoque} />
          </div>
        </Root>
      </Router>
